@@ -1,5 +1,5 @@
-# This is fin_tech_test a currency/crypto calculator.
-# A profit calculator and predictor
+# This is fin_tech_test
+# A crypto predictor
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -16,7 +16,9 @@ data = pd.read_csv("C:/python/fin_tech_test/Lib/archive/coin_XRP.csv")
 print(data.head())
 plt.figure(figsize=[10,4])
 plt.title("XRP")
-plt.xlabel("Date")
-plt.ylabel("Close")
+plt.xlabel("Price")
+plt.ylabel("Volume")
 #plt.show(data)
 plt.show()
+
+
